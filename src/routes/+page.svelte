@@ -1,7 +1,7 @@
 <script>
 	import Install from '$lib/Install.svelte';
 
-    const currentYear = new Date().getFullYear();
+	let currentYear = new Date().getFullYear();
 </script>
 
 <section class="login--screen">
